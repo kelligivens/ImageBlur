@@ -27,7 +27,7 @@ class Image
             @picture[row_number -1][col_number] = 1 unless row_number == 0 #up
             @picture[row_number +1][col_number] = 1 unless row_number == @picture.length-1 #down
             @picture[row_number][col_number -1] = 1 unless col_number == 0 #left
-            @picture[row_number][col_number +1] = 1 unless col_number == @picture.length > -1 #right
+            @picture[row_number][col_number +1] = 1 unless col_number == @picture.length >-1 #right
           end
         end
       end
